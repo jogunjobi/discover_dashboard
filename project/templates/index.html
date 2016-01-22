@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Broadway & Oni | Discover</title>
+  <link rel="stylesheet" href="./static/lib/css//bootstrap.min.css">
+  <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
+  <link rel="stylesheet" href="./static/lib/css/dc.css">
+  <link rel="stylesheet" href="./static/css/custom.css">
+  <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+
+
+</head>
+<body class="application">
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./">Broadway & Oni Discover</a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+
+
+          <div class="row">
+            <div class="col-sm-12">
+            <div class="col-sm-12" id="menuselect" style="background-color: #F8F8FF; height: 60px;">
+              <div class="chart-title">  <strong> Select Country </strong> </div>            
+
+              <a href='javascript:dc.filterAll();dc.redrawAll();'><font color="#33CC99"> Reset All </font></a>
+
+
+            </div>
+          </div>
+        </div>
+
+            <div class="2u">
+
+        <div> <span> &nbsp</span></div>
+
+        </div>
+
+              
+
+
+
+
+    <div class="row">
+
+      <div class="col-sm-12">
+        <div class="row">
+
+          <!-- Time Chart --> 
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                <b>Volume Sold:</b> Click and Drag Cursor to select Time Period 
+              </div>
+              <div class="chart-stage">
+                <div id="time-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Time Chart --> 
+
+          <!-- Resources Pie -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                <b>Sector Chart</b>
+              </div>
+              <div class="chart-stage">
+                <div id="sector-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Resources Pie -->
+
+          <!-- Resources Pie -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                <b>Industry Chart</b>
+              </div>
+              <div class="chart-stage">
+                <div id="industry-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Resources Pie -->
+
+          <!-- Resources Pie -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                <b>Total Volume</b>
+              </div>
+              <div class="chart-stage">
+                <div id="total-volume"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Resources Pie -->
+
+          <!-- Resources Pie -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                <b>Percentage Performance Comparison</b> (By Country)
+              </div>
+              <div class="chart-stage">
+                <div id="total-donations-nd"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Resources Pie -->
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+    <hr>
+    <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
+
+  </div>
+
+  <script src="./static/lib/js/jquery.min.js"></script>
+  <script src="./static/lib/js/bootstrap.min.js"></script>
+  <script src="./static/lib/js/crossfilter.js"></script>
+  <script src="./static/lib/js/d3.js"></script>
+  <script src="./static/lib/js/dc.js"></script>
+  <script src="./static/lib/js/queue.js"></script>
+
+
+  <script src="./static/lib/js/keen.min.js"></script>
+  <script src='./static/js/graphs.js' type='text/javascript'></script>
+</body>
+</html>
